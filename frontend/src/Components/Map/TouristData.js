@@ -1,3 +1,5 @@
+import MaharashtraInfo from "../../Info/MaharshtraInfo";
+
 // touristData.js
 export const touristData = [
     {
@@ -83,7 +85,7 @@ export const touristData = [
             festival: 'Ganesh Chaturthi',
             famousLocation: 'Shirdi Temple',
             funFact: 'Maharashtra is the wealthiest state in India.',
-            link: 'https://en.wikipedia.org/wiki/Maharashtra',
+            link: '/maharashtra',
             
         },
     },
@@ -127,7 +129,7 @@ export const touristData = [
             festival: 'Kumbh Mela',
             famousLocation: 'Haridwar',
             funFact: 'Uttarakhand is known for its spiritual significance and natural beauty.',
-            link: 'https://en.wikipedia.org/wiki/Uttarakhand',
+            link: '/uttarakhand',
         },
     },
     {

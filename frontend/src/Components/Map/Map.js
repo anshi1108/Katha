@@ -40,6 +40,8 @@ const Map = () => {
             const stateMarker = L.marker(state.latLng, { icon: stateIcon }).addTo(mapInstance);
             stateMarkers[state.id] = stateMarker;
 
+             // Add tooltip on hover to show state name
+            stateMarker.bindTooltip(state.name, { permanent: false, direction: 'top', className: 'state-tooltip' });
             // Create a popup with state details
             stateMarker.bindPopup(
                 `<div>
